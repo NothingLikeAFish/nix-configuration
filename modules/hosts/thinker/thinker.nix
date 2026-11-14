@@ -4,7 +4,6 @@
   flake.nixosConfigurations.thinker = inputs.nixpkgs.lib.nixosSystem {
     system = "x86_64-linux";
     modules = [
-      inputs.nixos-hardware.nixosModules.lenovo-thinkpad-x13-amd
       ./_hardware-configuration.nix
 
       self.modules.nixos.hosts-thinker-configuration
