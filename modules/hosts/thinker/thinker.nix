@@ -15,7 +15,7 @@
     ];
   };
 
-  flake.modules.nixos.hosts-thinker-configuration = {
+  flake.modules.nixos.hosts-thinker-configuration = { pkgs, ... }: {
     networking.hostName = "thinker";
     boot.kernelPackages = pkgs.linuxPackages_latest;
     boot.loader.efi.canTouchEfiVariables = true; # Uefi related
