@@ -28,6 +28,6 @@
     services.printing.enable = true;
 
 
-    # Add bluetooth and tlp or smth
+    # Add bluetooth
   };
 }
