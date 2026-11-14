@@ -6,9 +6,10 @@
 
     #environment.systemPackages = [ pkgs.sbctl ]; # For debugging Purposes
 
-    boot.loader.systemd-boot.enable = lib.mkForce false; # Currently lanzaboote replaces systemd-boot module
+    boot.loader.systemd-boot.enable = false; # Currently lanzaboote replaces systemd-boot module
 
     boot.lanzaboote = {
+      enable = true;
       pkiBundle = "/var/lib/sbctl";
       autoGenerateKeys.enable = true;
       autoEnrollKeys = {
