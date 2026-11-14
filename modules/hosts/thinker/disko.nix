@@ -1,8 +1,11 @@
 { inputs, self, ... }:
+
 #sudo nix run 'github:nix-community/disko/latest#disko-install' -- --write-efi-boot-entries --flake .#thinker --disk main /dev/nvme0n1
+
 {
   flake.modules.nixos.hosts-thinker-disko = { # Partitions
     imports = [ inputs.disko.nixosModules.disko ];
+
     disko.devices = {
       disk = {
         main = {
