@@ -7,7 +7,6 @@
       users-jasper
 
       system-common-packages
-      system-common-packages-git
     ];
 
     # NIX CONFIGURATION STUFF #
