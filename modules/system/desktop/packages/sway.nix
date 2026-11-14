@@ -44,8 +44,6 @@
           dwt enabled
         }
 
-        #mouse_warping container
-
         # KEYBINDS
         set $mod Mod4
         floating_modifier $mod
@@ -95,8 +93,6 @@
         bindsym $mod+Shift+e exec swaynag -t warning -m 'Do you want to exit sway?' -B 'Exit sway' 'swaymsg exit' -f 'JetBrainsMono Nerd Font'
 
         # AESTHETICS
-        default_border none
-        default_floating_border none
         gaps inner 8
 
         bar {

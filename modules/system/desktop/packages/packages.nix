@@ -5,6 +5,7 @@
     environment.systemPackages = with pkgs; [
       fastfetch
       librewolf
+      zed-editor
     ];
   };
 }
