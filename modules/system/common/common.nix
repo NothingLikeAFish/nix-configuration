@@ -28,6 +28,9 @@
     networking.networkmanager.enable = true;
     networking.firewall.enable = true;
 
+    # DISABLE ROOT LOGIN #
+    users.users.root.hashedPassword = "!";
+
     # TIME + LOCALES #
     services.automatic-timezoned.enable = true; # Detect time zone using location
     i18n.defaultLocale = "en_AU.UTF-8";
