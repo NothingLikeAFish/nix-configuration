@@ -11,7 +11,6 @@
       self.modules.nixos.hosts-thinker-disko
       self.modules.nixos.hosts-thinker-lanzaboote
 
-      self.modules.nixos.system-common
       self.modules.nixos.system-desktop
     ];
   };

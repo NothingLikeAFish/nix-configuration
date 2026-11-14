@@ -2,6 +2,14 @@
 
 {
   flake.modules.nixos.system-desktop = {
+    # MODULE IMPORTS #
+    imports = with self.modules.nixos; [
+      system-common
+
+      system-desktop-packages-sway
+      system-desktop-packages-fonts
+    ];
+
     # AUDIO #
     security.rtkit.enable = true;
     services.pipewire = {
@@ -17,5 +25,8 @@
 
     # PRINTING #
     services.printing.enable = true;
+
+
+    # Add bluetooth and tlp or smth
   };
 }

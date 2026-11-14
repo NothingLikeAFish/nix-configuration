@@ -2,8 +2,11 @@
 
 {
   flake.modules.nixos.system-common = {
+    # MODULE IMPORTS #
     imports = with self.modules.nixos; [
       users-jasper
+
+      system-common-packages
     ];
 
     # NIX CONFIGURATION STUFF #
@@ -18,6 +21,13 @@
       automatic = true;
       dates = "weekly";
       options = "--delete-older-than 7d";
+    };
+
+    # HOME-MANGER #
+    imports = [ inputs.home-manager.nixosModules.default ];
+    home-manager = {
+      useGlobalPkgs = true;
+      useUserPackages = true;
     };
 
     # NETWORKING #
