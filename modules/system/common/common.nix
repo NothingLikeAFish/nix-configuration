@@ -24,13 +24,6 @@
       options = "--delete-older-than 7d";
     };
 
-    # HOME-MANGER #
-    imports = [ inputs.home-manager.nixosModules.default ];
-    home-manager = {
-      useGlobalPkgs = true;
-      useUserPackages = true;
-    };
-
     # NETWORKING #
     networking.networkmanager.enable = true;
     networking.firewall.enable = true;
