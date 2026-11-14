@@ -1,7 +1,7 @@
 { inputs, self, ... }:
 
 {
-  flake.modules.nixos.system-desktop-packages-sway = {
+  flake.modules.nixos.system-desktop-packages-sway = { pkgs, ... }: {
     programs.sway = {
       enable = true;
       package = self.packages.${pkgs.stdenv.hostPlatform.system}.swayfx;
