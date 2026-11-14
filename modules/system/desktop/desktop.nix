@@ -6,6 +6,7 @@
     imports = with self.modules.nixos; [
       system-common
 
+      system-desktop-packages
       system-desktop-packages-sway
       system-desktop-packages-fonts
     ];

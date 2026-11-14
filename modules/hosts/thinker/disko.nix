@@ -1,6 +1,7 @@
 { inputs, self, ... }:
 
 #sudo nix run 'github:nix-community/disko/latest#disko-install' -- --write-efi-boot-entries --flake .#thinker --disk main /dev/nvme0n1
+#nixos-generate-config --no-filesystems --dir ./hosts/thinker/
 
 {
   flake.modules.nixos.hosts-thinker-disko = { # Partitions
