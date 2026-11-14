@@ -54,7 +54,6 @@
         bindsym $mod+f fullscreen
         bindsym $mod+Shift+Space floating toggle
 
-        #bindsym $mod+Return exec ${lib.getExe self.packages.${pkgs.stdenv.hostPlatform.system}.foot}
         bindsym $mod+Space exec ${lib.getExe pkgs.fuzzel}
 
         bindsym XF86MonBrightnessUp exec ${lib.getExe pkgs.brightnessctl} s +5%
