@@ -14,7 +14,6 @@
       autoGenerateKeys.enable = true;
       autoEnrollKeys = {
         enable = true;
-        includeFirmwareBuiltinKeys = true;
         autoReboot = true;
       };
     };
