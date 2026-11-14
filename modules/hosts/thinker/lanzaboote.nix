@@ -1,7 +1,7 @@
 { inputs, self, ... }:
 
 {
-  flake.modules.nixos.hosts-thinker-lanzaboote = { pkgs, ... }: { # Secure boot
+  flake.modules.nixos.hosts-thinker-lanzaboote = { pkgs, lib, ... }: { # Secure boot
     imports = [ inputs.lanzaboote.nixosModules.lanzaboote ];
 
     #environment.systemPackages = [ pkgs.sbctl ]; # For debugging Purposes
