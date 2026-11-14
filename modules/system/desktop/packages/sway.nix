@@ -99,12 +99,6 @@
         default_floating_border none
         gaps inner 8
 
-        client.focused #${self.colours.base02} #${self.colours.base00} #${self.colours.base05} #${self.colours.base02} #${self.colours.base02}
-        client.focused_inactive #${self.colours.base01} #${self.colours.base00} #${self.colours.base05} #${self.colours.base01} #${self.colours.base01}
-        client.unfocused #${self.colours.base01} #${self.colours.base00} #${self.colours.base05} #${self.colours.base01} #${self.colours.base01}
-        client.placeholder #${self.colours.base01} #${self.colours.base00} #${self.colours.base05} #${self.colours.base01} #${self.colours.base01}
-        client.urgent #${self.colours.base08} #${self.colours.base00} #${self.colours.base08} #${self.colours.base08} #${self.colours.base08}
-
         bar {
           position top
           height 32
