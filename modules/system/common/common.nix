@@ -25,10 +25,7 @@
 
     # NETWORKING #
     networking.networkmanager.enable = true;
-    networking.firewall = {
-      enable = true;
-      allowedTCPPorts = [ 5900 ];
-    };
+    networking.firewall.enable = true;
 
     # TIME + LOCALES #
     services.automatic-timezoned.enable = true; # Detect time zone using location
