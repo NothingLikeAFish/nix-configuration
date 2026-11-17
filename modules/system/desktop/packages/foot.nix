@@ -1,7 +1,7 @@
 { inputs, self, ... }:
 
 {
-  flake.modules.nixos.packages-foot = { pkgs, ... }: {
+  flake.modules.nixos.system-desktop-packages-foot = { pkgs, ... }: {
     environment.systemPackages = with self.packages.${pkgs.stdenv.hostPlatform.system}; [
       foot
     ];

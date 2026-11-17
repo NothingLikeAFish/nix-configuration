@@ -9,6 +9,7 @@
       system-desktop-packages
       system-desktop-packages-sway
       system-desktop-packages-fonts
+      system-desktop-packages-foot
     ];
 
     # AUDIO #
