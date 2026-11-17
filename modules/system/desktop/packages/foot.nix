@@ -40,7 +40,7 @@
         bright4 = self.colours.base0D;
         bright5 = self.colours.base0E;
         bright6 = self.colours.base0C;
-        bright7 = self.colours.base07;
+        bright7 = self.colours.base06;
       };
     };
   };
