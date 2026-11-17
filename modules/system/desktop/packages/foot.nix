@@ -12,11 +12,12 @@
     env.FONTCONFIG_FILE = pkgs.makeFontsConf { # Add font dependencies
       fontDirectories = [
         pkgs.nerd-fonts.jetbrains-mono
+        pkgs.nerd-fonts.bigblue-terminal
       ];
     };
     settings = {
       main = {
-        font = "JetBrainsMono Nerd Font:size=12";
+        font = "BigBlueTerm Nerd Font:size=12";
         resize-by-cells = false;
         resize-keep-grid = false;
         pad = "8x8 center";
