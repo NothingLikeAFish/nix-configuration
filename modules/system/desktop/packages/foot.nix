@@ -33,7 +33,7 @@
         regular5 = self.colours.base0E; # Magenta
         regular6 = self.colours.base0C; # Cyan
         regular7 = self.colours.base05; # White
-        bright0 = self.colours.base03;
+        bright0 = self.colours.base01;
         bright1 = self.colours.base08;
         bright2 = self.colours.base0B;
         bright3 = self.colours.base0A;
