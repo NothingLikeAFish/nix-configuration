@@ -25,7 +25,7 @@
         #alpha = 0.8;
         background = self.colours.base00;
         foreground = self.colours.base05;
-        regular0 = self.colours.base00; # Black, could also be base01
+        regular0 = self.colours.base00; # Black
         regular1 = self.colours.base08; # Red
         regular2 = self.colours.base0B; # Green
         regular3 = self.colours.base0A; # Yellow
