@@ -93,8 +93,8 @@
         bindsym $mod+Shift+e exec swaynag -t warning -m 'Do you want to exit sway?' -B 'Exit sway' 'swaymsg exit' -f 'JetBrainsMono Nerd Font'
 
         # AESTHETICS
-        default_border none
-        default_floating_border none
+        default_border pixel 2
+        default_floating_border pixel 2
         gaps inner 8
         animation_duration_ms 250
         corner_radius 0
