@@ -6,6 +6,7 @@
       fastfetch
       librewolf
       zed-editor
+      prisimlauncher
     ];
   };
 }

@@ -27,7 +27,13 @@
     # PRINTING #
     services.printing.enable = true;
 
-
-    # Add bluetooth
+    # BLUETOOTH
+    hardware.bluetooth = {
+      enable = true;
+      powerOnBoot = false;
+    };
+    environment.systemPackages = with pkgs; [
+      bluetui
+    ];
   };
 }
