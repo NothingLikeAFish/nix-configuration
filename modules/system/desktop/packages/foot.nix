@@ -17,7 +17,7 @@
     };
     settings = {
       main = {
-        font = "GohuFont Nerd Font:size=12";
+        font = "GohuFont 11 Nerd Font:size=12";
         resize-by-cells = false;
         resize-keep-grid = false;
         pad = "8x8 center";
