@@ -94,6 +94,10 @@
 
         # AESTHETICS
         gaps inner 8
+        animation_duration_ms 250
+        corner_radius 0
+        shadows enable
+        default_dim_inactive 0.05
 
         bar {
           position top
