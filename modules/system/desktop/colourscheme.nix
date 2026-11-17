@@ -4,13 +4,15 @@
     bg1 = "2B2B2B";
     fg0 = "E8E6E3";
     fg1 = "96938F";
-    red = "D7797F";
-    green = "9ABD86";
-    yellow = "D8B779";
-    blue = "85ACD3";
-    magenta = "BB94CC";
-    cyan = "7BB9BD";
+
+    red = "DF707B";
+    green = "91C978";
+    yellow = "E5B85F";
+    blue = "77B0E5";
+    magenta = "C58BDA";
+    cyan = "64C3CA";
 
     # Add accent
+    accent = "C58BDA";
   };
 }
