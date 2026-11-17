@@ -108,11 +108,19 @@
         client.urgent #${self.colours.base08} #${self.colours.base08} #${self.colours.base08} #${self.colours.base08} #${self.colours.base08}
 
         bar {
-          position top
+          position bottom
           height 32
           workspace_min_width 32
-          gaps 0 320
           font pango:JetBrainsMono Nerd Font Bold 12
+          colors {
+            background #${self.colours.base00}
+          	statusline #${self.colours.base05}
+            separator #${self.colours.base00}
+          	focused_workspace #${self.colours.base01} #${self.colours.base01} #${self.colours.base05}
+           	active_workspace #${self.colours.base00} #${self.colours.base00} #${self.colours.base01}
+           	inactive_workspace #${self.colours.base00} #${self.colours.base00} #${self.colours.base01}
+           	urgent_workspace #${self.colours.base08} #${self.colours.base08} #${self.colours.base05}
+          }
           status_edge_padding 0
           status_padding 0
           tray_output none
