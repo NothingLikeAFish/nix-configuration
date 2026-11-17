@@ -97,7 +97,7 @@
         animation_duration_ms 250
         corner_radius 0
         shadows enable
-        default_dim_inactive 0.05
+        #default_dim_inactive 0.05
         # border | bg | fg | indicator | child border
         client.focused #${self.colours.base0D} #${self.colours.base0D} #${self.colours.base00} #${self.colours.base01} #${self.colours.base01}
         client.unfocused #${self.colours.base00} #${self.colours.base00} #${self.colours.base01} #${self.colours.base00} #${self.colours.base00}
