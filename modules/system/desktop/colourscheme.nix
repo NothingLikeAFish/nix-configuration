@@ -1,7 +1,7 @@
 {
   flake.colours = {
     bg0 = "080808";
-    bg1 = "181818";
+    bg1 = "2B2B2B";
     fg0 = "E8E6E3";
     fg1 = "96938F";
     red = "D7797F";
