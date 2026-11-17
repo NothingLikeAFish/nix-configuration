@@ -99,7 +99,7 @@
         shadows enable
         default_dim_inactive 0.05
         # border | bg | fg | indicator | child border
-        client.focused #${self.colours.blue} #${self.colours.blue} #${self.colours.bg0} #${self.colours.blue} #${self.colours.blue}
+        client.focused #${self.colours.blue} #${self.colours.blue} #${self.colours.bg0} #${self.colours.red} #${self.colours.red}
         client.unfocused #${self.colours.bg0} #${self.colours.bg0} #${self.colours.bg1} #${self.colours.bg0} #${self.colours.bg0}
         client.urgent #${self.colours.red} #${self.colours.red} #${self.colours.bg0} #${self.colours.red} #${self.colours.red}
 
