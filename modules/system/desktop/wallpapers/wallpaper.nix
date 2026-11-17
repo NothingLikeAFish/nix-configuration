@@ -1,3 +1,3 @@
 {
-  flake.wallpaper = ./quake-brutalist.png;
+  flake.wallpaper = ./steamy-architecture.jpg;
 }
