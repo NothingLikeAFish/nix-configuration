@@ -99,10 +99,10 @@
         shadows enable
         default_dim_inactive 0.05
         # border | bg | fg | indicator | child border
-        client.focused #${self.colours.accent} #${self.colours.accent} #${self.colours.bg0} #${self.colours.bg1} #${self.colours.bg1}
-        client.unfocused #${self.colours.bg0} #${self.colours.bg0} #${self.colours.bg1} #${self.colours.bg0} #${self.colours.bg0}
-        client.focused_inactive #${self.colours.bg0} #${self.colours.bg0} #${self.colours.bg1} #${self.colours.bg0} #${self.colours.bg0}
-        client.urgent #${self.colours.red} #${self.colours.red} #${self.colours.bg0} #${self.colours.red} #${self.colours.red}
+        client.focused #${self.colours.base0D} #${self.colours.base0D} #${self.colours.base00} #${self.colours.base01} #${self.colours.base01}
+        client.unfocused #${self.colours.base00} #${self.colours.base00} #${self.colours.base01} #${self.colours.base00} #${self.colours.base00}
+        client.focused_inactive #${self.colours.base00} #${self.colours.base00} #${self.colours.base01} #${self.colours.base00} #${self.colours.base00}
+        client.urgent #${self.colours.base08} #${self.colours.base08} #${self.colours.base00} #${self.colours.base08} #${self.colours.base08}
 
         bar {
           position top

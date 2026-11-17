@@ -1,18 +1,14 @@
 {
-  flake.colours = {
-    bg0 = "080808";
-    bg1 = "2B2B2B";
-    fg0 = "E8E6E3";
-    fg1 = "96938F";
-
-    red = "DF707B";
-    green = "91C978";
-    yellow = "E5B85F";
-    blue = "77B0E5";
-    magenta = "C58BDA";
-    cyan = "64C3CA";
-
-    # Add accent
-    accent = "C58BDA";
-  };
+  flake.colours = builtins.fromJSON ( # Very hacky way of flake wide colours
+      builtins.readFile (
+        with inputs.nixpkgs.legacyPackages.x86_64-linux;
+        runCommand "colours.json"
+          {
+            nativeBuildInputs = [ flavours yq-go ];
+          }
+          ''
+            flavours generate dark "${self.wallpaper}" --stdout | yq -o=json '.' > "$out"
+          ''
+      )
+    );
 }
