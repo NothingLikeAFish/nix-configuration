@@ -1,3 +1,5 @@
+{ inputs, self, ... }:
+
 {
   flake.colours = builtins.fromJSON ( # Very hacky way of flake wide colours
       builtins.readFile (
