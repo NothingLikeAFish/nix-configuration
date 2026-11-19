@@ -1,7 +1,7 @@
 { inputs, self, ... }:
 
 {
-  flake.modules.nixos.system-desktop = {
+  flake.modules.nixos.system-desktop = { pkgs, ... }: {
     # MODULE IMPORTS #
     imports = with self.modules.nixos; [
       system-common
