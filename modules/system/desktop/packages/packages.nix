@@ -6,7 +6,7 @@
       fastfetch
       librewolf
       zed-editor
-      prisim-launcher
+      prismlauncher
       retroarch-full
     ];
   };
