@@ -7,6 +7,7 @@
       librewolf
       zed-editor
       prisimlauncher
+      retroarch-full
     ];
   };
 }
